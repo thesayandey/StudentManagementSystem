@@ -1,0 +1,14 @@
+.admintitle{
+    background-color: gold;
+    color: black;
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 40px;
+}
+
+.dashboard{
+    /* background-color: aliceblue; */
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: larger;
+}
