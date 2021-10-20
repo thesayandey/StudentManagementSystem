@@ -69,8 +69,9 @@ if(isset($_POST['submit'])){
                     <td><img style="max-width: 100px;" src="../dataimages/<?php echo $data['image']; ?> " alt="student image" ></td>
                     <td><?php echo $data['name']; ?></td>
                     <td><?php echo $data['rollno']; ?></td>
-                    <td>Edit</td>
+                    <td><a href="updateform.php?sid=<?php echo $data['id']; ?>">Edit</a></td>
                 </tr>
+                <!-- updateform.php?sid , here left side of the ? mark is url and the right portion is variable, we can use this as get method -->
 
             <?php
         }
