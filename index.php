@@ -45,3 +45,23 @@
 
 </body>
 </html>
+
+
+
+
+
+<!-- starting php -->
+
+<?php  
+
+if(isset($_POST['submit'])){
+    $standerd = $_POST['std'];
+    $roll = $_POST['rollno'];
+
+    include('dbcon.php');
+    include('function.php');
+
+    showdetails($standerd, $roll); //php function
+}
+
+?>
